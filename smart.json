@@ -1,0 +1,12 @@
+{
+  "packages": {
+    "iron-router": {
+      "version": "0.8.2"
+    },
+    "collection-hooks": {},
+    "fast-render": {},
+    "jade": {},
+    "handlebars-server": {},
+    "GAnalytics": {}
+  }
+}

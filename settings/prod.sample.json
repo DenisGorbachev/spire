@@ -1,0 +1,25 @@
+{
+  "baseUrl": "http://spireworks.co",
+  "apm": {
+    "appId": "",
+    "secret": ""
+  },
+  "MailChimpOptions": {
+    "apiKey": "",
+    "listId": ""
+  },
+  "public": {
+    "version": "__VERSION__",
+    "isDebug": false,
+    "imgur": {
+      "clientId": ""
+    },
+    "ga": {
+      "account": ""
+    },
+    "mixpanel": {
+      "token": "",
+      "disabled": false
+    }
+  }
+}

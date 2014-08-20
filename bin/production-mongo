@@ -1,0 +1,11 @@
+#!/bin/bash
+
+DIRNAME=$(cd `dirname $0` && pwd)
+USERNAME=$(<~/.meteor/spireworks.co.username)
+PASSWORD=$(<~/.meteor/spireworks.co.password)
+HOST="54.85.95.182"
+PORT="27017"
+DB="spireworks_co"
+OUT_DIR="/tmp"
+
+mongo -u $USERNAME -p $PASSWORD $HOST:$PORT/$DB

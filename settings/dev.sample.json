@@ -1,0 +1,24 @@
+{
+  "baseUrl": "http://localhost:3000",
+  "apm": {
+    "appId": "__disabled_for_dev__",
+    "secret": "__disabled_for_dev__"
+  },
+  "MailChimpOptions": {
+    "apiKey": "",
+    "listId": ""
+  },
+  "public": {
+    "isDebug": true,
+    "imgur": {
+      "clientId": ""
+    },
+    "ga": {
+      "account": ""
+    },
+    "mixpanel": {
+      "token": "",
+      "disabled": true
+    }
+  }
+}

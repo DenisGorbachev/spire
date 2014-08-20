@@ -1,0 +1,10 @@
+#!/bin/bash
+
+DIRNAME=$(cd `dirname $0` && pwd)
+
+# Using full data reload for a while
+meteor deploy -D spireworks.co
+meteor deploy --settings settings/prod.json spireworks.co
+meteor authorized spireworks.co --add starfall
+meteor authorized spireworks.co --add wsoul
+$DIRNAME/logs
