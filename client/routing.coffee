@@ -3,7 +3,7 @@ Router.configure
   notFoundTemplate: "notFound"
   loadingTemplate: "loading"
   yieldTemplates:
-    navbar: {to: "header"}
+    header: {to: "header"}
 
 Router.onBeforeAction("dataNotFound")
 
